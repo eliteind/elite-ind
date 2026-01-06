@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f1115;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.header {
+  padding: 20px;
+  background: #0b0d11;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 320px;
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #141821, #0f1115);
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+}
+
+.services, .gallery, .area, .contact {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  border-left: 4px solid #4aa3ff;
+  padding-left: 12px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 12px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.contact-block {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #0b0d11;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer img {
+  width: 60px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    display: none;
+  }
+
+  .footer img {
+    width: 80px;
+  }
+}
